@@ -1,0 +1,29 @@
+:root {
+--primary-color: #333;
+--secondary-color: #eee;
+--hover-color: rgba(0,0,0,0.1);
+
+--font-size: 16px;
+--line-height: 1.5;
+--font-family: sans-serif;
+
+--margin: 1rem;
+--padding: 0.5rem;
+
+--border-radius: 4px;
+}
+
+.button {
+padding: var(--padding);
+background-color: var(--primary-color);
+border-radius: var(--border-radius);
+}
+
+.button:hover {
+background-color: darken(var(--primary-color), 10%);
+}
+
+input, select, textarea {
+padding: var(--padding);
+border: 1px solid var(--secondary-color);
+}

@@ -1,0 +1,66 @@
+/**
+ * Style Guide
+ * This document outlines the common styling patterns, components
+ * and design tokens used throughout the application.
+ */
+
+/***********************
+Colors
+***********************/
+
+/**
+ * Primary brand color
+ * Usage: Text, borders, active states
+ */
+:root {
+  --color-primary: #333;
+}
+
+/**
+ * Secondary neutral color
+ * Usage: Backgrounds, inactive states
+ */
+:root {
+  --color-secondary: #eee;
+}
+
+/***********************
+Typography
+***********************/
+
+/**
+ * Base font size
+ * Usage: Set root font-size to apply across the whole site
+ */
+:root {
+  font-size: 16px;
+}
+
+/***********************
+Buttons
+***********************/
+
+/**
+ * Standard button styling
+ * Usage: Use on primary calls-to-action
+ */
+.button {
+  /* Button styles here */
+  background-color: var(--color-primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/***********************
+Body
+***********************/
+
+/**
+ * General body styles
+ */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-secondary);
+}

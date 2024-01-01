@@ -1,0 +1,35 @@
+.error-text {
+  color: red;
+}
+
+input.error,
+select.error {
+  border-color: red;
+}
+
+textarea.error {
+  border-color: red;
+}
+
+.form-error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Required Field */
+
+label .required {
+  color: #777;
+}
+
+/* Invalid States */
+
+input:invalid,
+textarea:invalid {
+  border-color: #ff0000;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  box-shadow: 0 0 5px #ff0000;
+}

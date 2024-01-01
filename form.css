@@ -1,0 +1,42 @@
+/* Form */
+
+form {
+width: 60%;
+margin: 30px auto;
+padding: 20px;
+border: 1px solid #ddd;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+}
+
+textarea {
+height: 100px;
+}
+
+input[type="submit"] {
+background: #333;
+color: #fff;
+border: 0;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+/* Checkboxes and Radios */
+
+.form-group {
+display: flex;
+margin-bottom: 10px;
+}
+
+.form-control {
+flex: 1;
+margin-right: 20px;
+}
+
+.form-control:last-of-type {
+margin-right: 0;
+}

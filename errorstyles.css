@@ -1,0 +1,39 @@
+/* Error Styles */
+
+.error {
+color: red;
+}
+
+.error-input,
+.error-select {
+border-color: red;
+}
+
+.error-textarea {
+border-color: red;
+}
+
+.error-message {
+color: red;
+margin-top: 5px;
+}
+
+/* Required Fields */
+
+.required::after {
+color: #777;
+content: "*";
+margin-left: 5px;
+}
+
+/* Invalid Fields */
+
+input:invalid,
+textarea:invalid {
+border-color: red;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+box-shadow: 0 0 5px red;
+}

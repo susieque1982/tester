@@ -1,0 +1,12 @@
+:root {
+--primary: #333;
+--secondary: #eee;
+}
+
+.button {
+background: var(--primary);
+}
+
+input {
+border-color: var(--secondary);
+}

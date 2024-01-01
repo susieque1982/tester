@@ -1,0 +1,34 @@
+/* Navigation */
+
+.navbar {
+  background: #fff;
+  padding: 20px;
+}
+
+.nav-link {
+  color: #333;
+  margin-left: 30px;
+}
+
+/* Homepage Hero */
+
+.hero {
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+/* Collections */
+
+.collection {
+  background: #f7f7f7;
+  padding: 30px;
+}
+
+/* Product Page */
+
+.product-details {
+  border-bottom: 1px solid #eee;
+}
+
+/* And more... */

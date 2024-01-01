@@ -1,0 +1,54 @@
+/* Blocks */
+.header {
+  /* Styles for header block */
+  background-color: #f2f2f2;
+  padding: 20px;
+  /* Add more styles as needed */
+}
+
+.navigation {
+  /* Styles for navigation block */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Add more styles as needed */
+}
+
+/* Elements */
+.navigation__list {
+  /* Styles for navigation list element */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Add more styles as needed */
+}
+
+.navigation__item {
+  /* Styles for navigation item element */
+  margin-right: 10px;
+  /* Add more styles as needed */
+}
+
+/* Modifiers */
+.navigation__item--active {
+  /* Styles for active navigation item modifier */
+  color: blue;
+  font-weight: bold;
+  /* Add more styles as needed */
+}
+
+.button {
+  /* Styles for button element */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  /* Add more styles as needed */
+}
+
+.button--secondary {
+  /* Styles for secondary button modifier */
+  background-color: lightgrey;
+  /* Add more styles as needed */
+}

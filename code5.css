@@ -1,0 +1,33 @@
+/* Form Global */
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Checkout */
+
+.checkout-form {
+  background: #f7f7f7;
+  padding: 30px; 
+}
+
+/* Newsletter */
+
+.newsletter-form {
+  display: flex;
+}
+
+/* Error Styles */ 
+
+.error {
+  color: red;
+}

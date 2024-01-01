@@ -1,0 +1,27 @@
+/* Transitions */
+
+a, button {
+transition: all 0.2s;
+}
+
+.collection-item:hover {
+box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Animations */
+
+@keyframes slideIn {
+from {
+transform: translateY(30px);
+opacity: 0;
+}
+
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+.hero h1 {
+animation: slideIn 1s ease-in-out;
+}

@@ -1,0 +1,31 @@
+/* Hover Effects */
+
+.product:hover {
+  transform: scale(1.05);
+  transition: transform 0.25s ease-in-out;  
+}
+
+/* Navigation */ 
+
+.nav-link {
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+
+/* Loader */
+
+.loader {
+  transition: opacity 1s;  
+}
+
+/* Buttons */
+
+.btn {
+  transition: background 0.2s, transform 0.2s;  
+}
+
+/* More effects... */

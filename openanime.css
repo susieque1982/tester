@@ -1,0 +1,7 @@
+.modal {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  /* Keyframe code */
+}

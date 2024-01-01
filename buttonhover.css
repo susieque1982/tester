@@ -1,0 +1,20 @@
+/* Button hover */
+.button:hover {
+  animation: buttonTada 0.5s;
+}
+
+/* Modal open */
+.modal {
+  opacity: 0;
+  animation: modalFadeIn 1s;
+}
+
+/* Loading state */
+.loading {
+  animation: spin 2s linear infinite;
+}
+
+/* Form validation */
+.error {
+  animation: shakeError 0.5s;
+}

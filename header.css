@@ -1,0 +1,45 @@
+/* Header */
+
+header {
+background: #333;
+color: #fff;
+padding: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.navbar a {
+color: #fff;
+padding: 10px 15px;
+}
+
+/* Hero */
+
+.hero {
+height: 300px;
+background-image: url(image.jpg);
+background-size: cover;
+}
+
+.hero h1 {
+color: #fff;
+}
+
+/* Collections */
+
+.collections {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+
+.collection-item {
+background: #fff;
+padding: 20px;
+}
+

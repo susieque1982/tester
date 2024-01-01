@@ -1,0 +1,41 @@
+/* Responsive Grid */
+
+@media (max-width: 800px) {
+.collections {
+grid-template-columns: 1fr;
+}
+}
+
+/* Navigation */
+
+@media (max-width: 600px) {
+
+.navbar {
+flex-direction: column;
+}
+
+.navbar a {
+padding: 10px;
+}
+
+}
+
+/* Hero */
+
+@media (max-width: 500px) {
+
+.hero {
+height: 200px;
+}
+
+}
+
+/* Form */
+
+@media (max-width: 400px) {
+
+form {
+width: 90%;
+}
+
+}
