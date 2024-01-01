@@ -1,0 +1,32 @@
+/* Form Labels */
+label {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #0066ff;
+}
+
+a:hover {
+  color: #0052cc;
+}
+
+a:focus {
+  outline: 3px solid #0066ff;
+  outline-offset: 3px;
+}
+
+/* Buttons */
+button:focus {
+  outline: 3px solid #0066ff;
+  outline-offset: 3px;
+}
+
+/* Form Fields */
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: #0066ff;
+  outline-offset: 3px;
+}
